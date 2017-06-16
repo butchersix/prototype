@@ -40,7 +40,7 @@ namespace prototype
                     + "ON member_tbl.memberID = discipleshipgroupmembers_tbl.memberID WHERE dgroupID = "
                     + "" + getDgroupIDForLeader() + "", conn);
                 Rifrish();
-                lblDgroupLeader.Text = getDgroupLeaderName();
+                lblDgroupLeader.Text = getDgroupLeaderName(); //tytyu
             }
             catch(Exception ex)
             {
