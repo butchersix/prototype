@@ -27,6 +27,7 @@ namespace prototype
             InitializeComponent();
             conn = new MySqlConnection("Server=localhost;Database=dbccf1;Uid=root;Pwd=root;");
         }
+        // asdasdasdasd
 
         private void FormHome_Load(object sender, EventArgs e)
         {
